@@ -1,7 +1,6 @@
-The raw data for this project were spread across several files and directories (see README.txt for information about the data set and where to  obtain it). The observations included a large variety of measures derived from accelerometer data about subjects who wore smartphones while performing various tasks. The observations were broken into a "test" and a "training" set. Each of these sets was further separated into three files containing, respectively, subject ids, activity ids, and 561 derived measures. 
+The raw data for this project were spread across several files and directories (see README.txt for information about the data set and where to  obtain it). The observations included a large variety of measures derived from accelerometer data about subjects who wore smartphones while performing various tasks. The observations were broken into a "test" and a "training" set. Each of these sets was further separated into three files containing subject ids, activity ids, and 561 derived measures. 
 
-To process this data and create a single output data file containing the mean of a selelect subset of the 561 measures grouped by 
-subject and activity, the following steps were taken:
+To process this data and create a single output data file containing the mean of a selelect subset of the 561 measures grouped by subject and activity, the following steps were taken:
 
 1. Renamed the variables in the test and training data sets, respectively, to be descriptive. The 561 derived measures
 were named using the information in "features" in the main zipped raw data archive. 
